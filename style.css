@@ -179,15 +179,15 @@ img {
 }
 
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
 }
 
-body::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: black;        /* color of the tracking area */
 }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background-color: yellow;    /* color of the scroll thumb */
   border-radius: 10px;       /* roundness of the scroll thumb */
   border: 3px solid black;  /* creates padding around scroll thumb */
